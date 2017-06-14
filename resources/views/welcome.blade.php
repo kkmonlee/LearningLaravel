@@ -4,9 +4,9 @@
 </head>
 <body>
 <ul>
-    // Blade template engine syntax
+    <!-- Blade template engine syntax -->
     @foreach ($tasks as $task)
-        <li>{{ $task }}</li>
+        <li>{{ $task->body }}</li>
     @endforeach
 </ul>
 </body>
